@@ -80,7 +80,8 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  <<: *default
-  database: rails_backend_production
-  username: rails_backend
-  password: <%= ENV['RAILS_BACKEND_DATABASE_PASSWORD'] %>
+  url: postgres://vzwobcjulwspno:0f865de7fa552ec2472785208aa266f2994b0dac611789feae30cf96f1c5b1f7@ec2-3-229-51-131.compute-1.amazonaws.com:5432/d6i60121qlpe4g
+  # <<: *default
+  # database: rails_backend_production
+  # username: rails_backend
+  # password: <%= ENV['RAILS_BACKEND_DATABASE_PASSWORD'] %>
