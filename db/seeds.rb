@@ -19,3 +19,9 @@ Owner.create([
     {name:"John Macbeth", email:"johnmacbeth@gmail.com"},
     {name:"Daniel Park", email:"danielpark@gmail.com"}
 ])
+
+Post.create([
+    {title:"初投稿", content:"わーい"},
+    {title:"今日の予定", content:"コーディングする"},
+    {title:"週末の予定", content:"温泉に行く"}
+])
