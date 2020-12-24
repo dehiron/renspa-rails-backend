@@ -12,6 +12,12 @@ Property.create([
     {type:"rooftop", title:"自由に使える屋上！", description:"自由に使える屋上！", address_full:"東京都目黒区目黒3-8-4", region:"関東", prefecture:"東京", city:"目黒区", price:200, header_img:"https://dl.dropboxusercontent.com/s/aj9xbb5tvoqbty2/450-20191105175328203741.jpg", owner_id:2},
     {type:"rooftop", title:"晴れやかな屋上！", description:"晴れやかな屋上！", address_full:"東京都中央区日本橋4-18-8", region:"関東", prefecture:"東京", city:"中央区", price:800, header_img:"https://dl.dropboxusercontent.com/s/1gyqrusw17g0qgh/img_f9b34bdb1218b9ccbe6091f1fbf455e774408.jpg", owner_id:2},
     {type:"garden", title:"広々な庭！", description:"広々な庭！", address_full:"東京都江東区砂場1-28-3", region:"関東", prefecture:"東京", city:"江東区", price:1000, header_img:"https://dl.dropboxusercontent.com/s/xrbtodcf3jceidl/3fd8456f2abd4a8888ae6686472be47d-e1570792926959.jpg", owner_id:3},
+    {type:"garden", title:"キャンプもできる庭！", description:"キャンプもできる庭！", address_full:"東京都江戸川区砂場2-8-1", region:"関東", prefecture:"東京", city:"江戸川区", price:500, header_img:"https://dl.dropboxusercontent.com/s/t1u9z09klzlfm33/garden2.jpg", owner_id:3},
+    {type:"garden", title:"手入れされた庭！", description:"手入れされた庭！", address_full:"東京足立区砂場9-3-3", region:"関東", prefecture:"東京", city:"足立区", price:900, header_img:"https://dl.dropboxusercontent.com/s/3u3ataclp2ccm0b/garden.jpg", owner_id:3},
+    {type:"garden", title:"ペットと遊べる庭！", description:"ペットと遊べる庭！", address_full:"東京都大田区蒲田3-23-3", region:"関東", prefecture:"東京", city:"大田区", price:1100, header_img:"https://dl.dropboxusercontent.com/s/g7ta2prh3rxocje/garden3.jpg", owner_id:3},
+    {type:"office", title:"綺麗なオフィス！", description:"綺麗なオフィス！", address_full:"東京港区六本木4-20-1", region:"関東", prefecture:"東京", city:"港区", price:2500, header_img:"https://dl.dropboxusercontent.com/s/9blsltobclvnac7/office.jpg", owner_id:3},
+    {type:"office", title:"お洒落なオフィス！", description:"お洒落なオフィス！", address_full:"東京渋谷区恵比寿2-1-23", region:"関東", prefecture:"東京", city:"渋谷区", price:3000, header_img:"https://dl.dropboxusercontent.com/s/bajhffy8eouwpwr/office2.jpg", owner_id:3},
+
 ])
 
 Owner.create([
