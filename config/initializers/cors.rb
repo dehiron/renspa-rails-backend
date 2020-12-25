@@ -19,7 +19,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-      origins 'http://localhost:3000'
+      origins 'http://localhost:3000', 'https://renspa-rails-backend.herokuapp.com', /renspa-react-frontend\.herokuapp\.com/
 
       resource '*',
           headers: :any,
